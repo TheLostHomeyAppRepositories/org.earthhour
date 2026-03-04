@@ -1,9 +1,9 @@
 {
   "id": "org.earthhour",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": ">=12.4.0",
   "sdk": 3,
-  "brandColor": "#4587C2",
+  "brandColor": "#888BB8",
   "runtime": "nodejs",
   "platforms": [
     "local"
@@ -52,5 +52,12 @@
   "source": "https://github.com/Doekse/earthhour-homey",
   "bugs": {
     "url": "https://github.com/Doekse/earthhour-homey/issues"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "fundraiserCharityId": 19271
+      }
+    }
   }
 }

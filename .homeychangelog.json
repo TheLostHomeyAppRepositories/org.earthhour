@@ -1,11 +1,14 @@
 {
-  "1.0.2": {
-    "en": "Fixed remaining German translations in source files (.homeycompose)"
+  "1.0.0": {
+    "en": "Initial release of the Earth Hour app for Homey"
   },
   "1.0.1": {
     "en": "Changed German translations to use 'Earth Hour' instead of 'Stunde der Erde'"
   },
-  "1.0.0": {
-    "en": "Initial release of the Earth Hour app for Homey"
+  "1.0.2": {
+    "en": "Fixed remaining German translations in source files (.homeycompose)"
+  },
+  "1.0.3": {
+    "en": "Adjusted branding and added PayPal Charity donation link"
   }
 }
