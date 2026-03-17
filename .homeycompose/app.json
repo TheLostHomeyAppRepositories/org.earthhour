@@ -1,12 +1,13 @@
 {
   "id": "org.earthhour",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "brandColor": "#888BB8",
   "runtime": "nodejs",
   "platforms": [
-    "local"
+    "local",
+    "cloud"
   ],
   "name": {
     "en": "Earth Hour",
@@ -46,9 +47,10 @@
     "xlarge": "/assets/images/xlarge.png"
   },
   "author": {
-    "name": "Abe Haverkamp",
-    "email": "abe.haverkamp@gmail.com"
+    "name": "WWF Nederland",
+    "email": "abe.haverkamp+wwf@homey.app"
   },
+  "support": "mailto:abe.haverkamp+wwf@homey.app",
   "source": "https://github.com/Doekse/earthhour-homey",
   "bugs": {
     "url": "https://github.com/Doekse/earthhour-homey/issues"

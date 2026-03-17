@@ -151,4 +151,14 @@ module.exports = class EarthHourApp extends Homey.App {
     this.log('[Cron] Earth Hour cron job registered and started');
   }
 
+  /**
+   * Stops the Earth Hour cron job so the app instance can be torn down cleanly on Homey Cloud.
+   */
+  async onUninit() {
+    if (this._earthHourCron) {
+      this._earthHourCron.stop();
+      this.log('[Cron] Earth Hour cron job stopped');
+    }
+  }
+
 };

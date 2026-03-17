@@ -10,5 +10,8 @@
   },
   "1.0.3": {
     "en": "Adjusted branding and added PayPal Charity donation link"
+  },
+  "1.1.0": {
+    "en": "Added support for Homey Cloud"
   }
 }
